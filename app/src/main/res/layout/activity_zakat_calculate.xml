@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZakatCalculate"
+    android:background="@drawable/gradient2">
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Gold Weight (g)"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/currentvalue"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Current Gold Value"
+        android:inputType="numberDecimal"
+        android:textColor="#EDEAEA"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="282dp"
+        android:layout_height="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp">
+
+        <RadioButton
+            android:id="@+id/rbKeep"
+            android:layout_width="265dp"
+            android:layout_height="67dp"
+            android:buttonTint="#E4D56E"
+            android:fontFamily="monospace"
+            android:onClick="checkButton"
+            android:text="KEEP (85g)"
+            android:textAlignment="textStart"
+            android:textColor="#F3F0F0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbWear"
+            android:layout_width="268dp"
+            android:layout_height="76dp"
+            android:backgroundTint="#FFFFFF"
+            android:buttonTint="#E4D56E"
+            android:fontFamily="monospace"
+            android:onClick="checkButton"
+            android:text="WEAR (200g)"
+            android:textColor="#F6F2F2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="156dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="281dp"
+        android:backgroundTint="#5ECC8A"
+        android:fontFamily="sans-serif-black"
+        android:text="total payment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="#009688" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="152dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="14dp"
+        android:backgroundTint="#ED3232"
+        android:fontFamily="sans-serif-black"
+        android:text="clear all"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalValue"
+        android:layout_width="417dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="-5dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/zakatpayable"
+        android:layout_width="411dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/totalValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalzakat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/zakatpayable"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ⓒ 2022 Lembaga Zakat Negeri Kedah"
+        android:textColor="#F6F1F1"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lembaga Zakat Negeri Kedah</string>
+    <string name="article_string">Information</string>
+    <string name="article_subheading">Why should Zakat</string>
+    <string name="paragraph"><b>Why must you pay Zakat on gold?</b>
+\n\n
+        Zakat comes due on all the growing and producing wealth of every Muslim who solely owns it once it reaches its set threshold and date of maturation. Growth and production potential define gold as the very standard of Zakatable assets.
+
+\n\nIn fact, Muslim scholars have literally made gold the standard weight measure for the nisab threshold on currency because it has proven the most constant, stable unit of fungible wealth-forms, like precious metals, coinage, currency, or money.
+
+\n\nThe importance of gold (and the wealth-types for which it becomes the scale) in the economic life of the community means hoarding it can quickly turn into a mechanism for permanently enriching the few and impoverishing the many if its holders do not put it into circulation.
+
+Obligatory Zakat deliberately creates an incentive to invest gold and its analogous wealth-forms in society, which then inures the people, through both its circulation and its distribution.
+
+</string>
+    <string name="Mission"><b>MISSION</b>\n\nImprove Islamic social financial management efficiently and with integrity to upgrade the socio-economic status of Muslims.</string>
+    <string name="Vision"><b>VISION</b>\n\nBecome a world-class Islamic social finance agency.</string>
+
+        <string name="Github"> href=https://github.com/jaji00s/Zakat-Payment.git</string>
+
+</resources>
